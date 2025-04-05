@@ -1,4 +1,4 @@
-# jax_examples
+# annotated-jax
 
 > Deep Learning examples using the Jax ecosystem of libraries
 
@@ -20,11 +20,6 @@ source .venv/bin/activate
 > devcontainer up --workspace-folder .
 > ```
 
-> [!CAUTION]
-> `uv` doesn't support installing venvs at custom locations so
-> if you run the devcontainer after creating a local env, they'll conflict
-> due to both venvs trying to exist in the same place. `poetry` has a better solution
-> but this project uses uv so anyways.
 
 
 ## run jupyter lab

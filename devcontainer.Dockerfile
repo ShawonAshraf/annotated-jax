@@ -9,4 +9,4 @@ ENV HF_HOME=/workspaces/.cache/huggingface
 # env
 RUN pip install uv
 COPY pyproject.toml uv.lock ./
-RUN uv sync
+RUN uv pip install --system .
